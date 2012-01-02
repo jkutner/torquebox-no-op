@@ -1,6 +1,10 @@
 module TorqueBox
   module Messaging
     module Backgroundable
+      def self.included(base)
+        base.extend(ClassMethods)
+      end
+      
       def background(options = { })
         # no-op
         # todo: set a global option to run the method synchronously?
