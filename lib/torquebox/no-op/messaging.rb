@@ -17,7 +17,7 @@ module TorqueBox
       end
     end
     
-    module MessageProcessor
+    class MessageProcessor
     
     end
   end
