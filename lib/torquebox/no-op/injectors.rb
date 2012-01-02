@@ -1,5 +1,5 @@
 module TorqueBox
-  class Injectors
+  module Injectors
     def inject(*args)
       DummyResource.new
     end 
