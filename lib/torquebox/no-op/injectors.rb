@@ -2,8 +2,8 @@ module TorqueBox
   module Injectors
     def inject(*args)
       DummyResource.new
-    end 
-    
+    end
+
     class DummyResource
       def publish(*args)
         # no-op
