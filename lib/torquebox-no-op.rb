@@ -1,0 +1,1 @@
+require "torquebox/no-op/messaging.rb"
