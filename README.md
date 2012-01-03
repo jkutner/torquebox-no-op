@@ -5,6 +5,10 @@ The torquebox-no-op Gem is a mock library that allows you to run TorqueBox appli
 provides definitions for many TorqueBox methods and classes, but does not actually implement them.  This allows a
 TorqueBox application to *run*, but not necessaryily *work*.
 
+This library is primarily intended to facilitate unit testing, where as [TorqueSpec](https://github.com/torquebox/torquespec)
+handles integration testing.  But it could be used to run an application (probably just in development) using WEBrick or
+some such server.  It could even be used to run under MRI!
+
 ## How to use it
 Add this to your Gemfile:
 
